@@ -13,6 +13,7 @@ function App() {
           <Route path="/register" component={RegisterPage} />
           <Route path="/detail/:touristRouteId" component={DetailPage} />
           <Route path="/search/:keywords?" component={SearchPage} />
+          {/* 404页面 */}
           <Route render={() => <h1>404 not found 页面去火星了 ！</h1>} />
         </Switch>
       </BrowserRouter>
